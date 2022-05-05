@@ -1,0 +1,206 @@
+/* COLORS ----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* GLOBAL STYLES ----------------------------------------------------------------------------------------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #AB989E;
+}
+body {
+  margin: 0px 5px;
+  padding: 15px;
+  font-family: "Montserrat";
+  color: #abb7b7;
+  background-image: linear-gradient(90deg, #305452 0%, #AB989E 50%, #305452 100%);
+}
+h1 {
+  color: #e8e8e8;
+  letter-spacing: 0.5em;
+  margin-top: 19px;
+  margin-bottom: 1px;
+  font-weight: 100;
+  font-size: 22px;
+  font-family: abril-fatface, serif;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 13px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  letter-spacing: 0.2em;
+  color: #AB989E;
+}
+h3 {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: #AB989E;
+  font-size: 12px;
+  line-height: 1em;
+}
+p {
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+button {
+  background-color: #95a5a6;
+  padding: 12px 30px;
+  border: 1px solid #95a5a6;
+  border-radius: 13px;
+  transition: all 0.6s ease-in-out;
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 4px 8px rgba(0, 0, 0, 0.5), 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+/* MAIN CONTAINER ---------------------------------------------------------------------------------------------------------------------------------------*/
+.buttons {
+  display: flex;
+}
+.buttons-email {
+  margin-right: 20px;
+  color: #2A2A32;
+}
+.buttons-email:hover {
+  background-color: #305452;
+  border: 1px solid #305452;
+  color: #e8e8e8;
+}
+.buttons-email-envelope {
+  padding-right: 10px;
+}
+.buttons-linkedin {
+  margin-left: 20px;
+  background-color: #AB989E;
+  color: #2A2A32;
+  border: 1px solid #AB989E;
+}
+.buttons-linkedin:hover {
+  background-color: #305452;
+  border: 1px solid #305452;
+  color: #e8e8e8;
+}
+.buttons-linkedin-user {
+  padding-right: 10px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+}
+.nav-left {
+  display: flex;
+  letter-spacing: 0.1em;
+  color: #AB989E;
+  font-size: 40px;
+  font-family: brush-script-std, sans-serif;
+  padding-top: 10px;
+}
+.nav-left-concha:hover {
+  color: #2A2A32;
+  cursor: pointer;
+}
+.nav-left p {
+  font-size: 20px;
+}
+.nav-left-icon {
+  padding-right: 10px;
+  color: #FFF5D4;
+  font-size: 12px;
+}
+.nav-right {
+  font-size: 9px;
+  color: #e8e8e8;
+  letter-spacing: 4px;
+}
+.nav-right-concha {
+  color: #FFF5D4;
+}
+.nav-right-concha:hover {
+  color: #AB989E;
+}
+.container {
+  display: flex;
+  flex: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 0px 25px 0px 25px;
+  background: #2A2A32;
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
+  margin: 5px auto;
+  width: 400px;
+  background-image: url(../images//leafs.png);
+  background-repeat: no-repeat;
+  background-position-x: 84px;
+  background-position-y: 107%;
+  background-size: 400px;
+}
+.container-information {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.container-information-skills li {
+  display: inline;
+  padding-left: 0px;
+  margin-left: 0px;
+  font-size: 15px;
+}
+.container-information-skills-list {
+  margin-top: 8px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.container-icons {
+  display: flex;
+  background-color: #212128;
+  width: 400px;
+  justify-content: space-evenly;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 55px;
+  align-items: center;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  padding-top: 10px;
+}
+.container-icons img:hover {
+  opacity: 0.5;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+.container a {
+  color: #abb7b7;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.footer {
+  display: flex;
+  place-content: center;
+  position: absolute;
+  bottom: 10px;
+  width: 99%;
+  color: #2A2A32;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+}
+.footer:hover {
+  color: white;
+  cursor: pointer;
+}
+.picture {
+  width: 400px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
