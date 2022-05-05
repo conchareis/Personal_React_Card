@@ -178,7 +178,6 @@ button {
 	align-items: center;
   flex-flow: column;
 	padding: 0px 25px 0px 25px;
-  // padding: 0px 25px 30px 25px;
 	background: @container-background;
 	border-radius: 25px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
@@ -189,6 +188,17 @@ button {
   background-position-x: 84px;
   background-position-y: 107%;
   background-size: 400px; 
+
+  &-info {
+    text-align: center;
+    padding-bottom: 20px;
+
+    a {
+      color: @background-green;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+  }
 
   &-information {
     display: flex;
@@ -234,13 +244,6 @@ button {
         cursor: pointer;
       }
     }
-  }
-
-    a {
-    color: @background-green;
-    font-size: 12px;
-    margin-top: 8px;
-    margin-bottom: 20px;
   }
 }
 

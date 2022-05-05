@@ -143,6 +143,15 @@ button:hover {
   background-position-y: 107%;
   background-size: 400px;
 }
+.container-info {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.container-info a {
+  color: #abb7b7;
+  font-size: 12px;
+  margin-top: 8px;
+}
 .container-information {
   display: flex;
   flex-direction: column;
@@ -177,12 +186,6 @@ button:hover {
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
   cursor: pointer;
-}
-.container a {
-  color: #abb7b7;
-  font-size: 12px;
-  margin-top: 8px;
-  margin-bottom: 20px;
 }
 .footer {
   display: flex;
